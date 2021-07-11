@@ -1,0 +1,14 @@
+.header {
+    background: #f26829;
+    height: auto;
+}
+
+.imagem {
+    margin-left: auto;
+}
+
+a {
+    display: block;
+    line-height: 2em;
+    width: 50px;
+}
