@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-neori',
   templateUrl: './neori.component.html',
-  styleUrls: ['./neori.component.css']
+  styleUrls: ['./neori.component.scss']
 })
 export class NeoriComponent implements OnInit {
 

@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tb-header{
+    background: #f26829;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tb-footer{
+    background: #f26829;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+img{
+    max-width: 300px;
+    
+}
+
+mat-icon{
+    color: white;
+    font-size: 50px;
+}
+
+.insta-link{
+    max-height: 50px;
+    padding: 0 0;
+    
+}
+
+@media screen and (max-width: 1200px) {
+    .bild-logo{
+        display: none;
+    }
+}
