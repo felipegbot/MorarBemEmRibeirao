@@ -4,19 +4,14 @@ body{
     box-sizing: border-box;
 }
 
-.tb-header{
+.tb-header, .tb-footer{
     background: #f26829;
     height: auto;
     display: flex;
     justify-content: space-between;
 }
 
-.tb-footer{
-    background: #f26829;
-    height: auto;
-    display: flex;
-    justify-content: space-between;
-}
+
 
 img{
     max-width: 300px;
@@ -34,8 +29,22 @@ mat-icon{
     
 }
 
+h4{
+    font-size: 16px;
+}
+
+.footer-text{
+    width:550px;
+    white-space: pre-line;
+    text-align: center;
+}
+
 @media screen and (max-width: 1200px) {
     .bild-logo{
         display: none;
+    }
+    .footer-text{
+        text-align: left;
+        width: 300px;
     }
 }
