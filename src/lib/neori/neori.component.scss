@@ -1,0 +1,22 @@
+.first-sec{
+    background-color: #ee7048;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    max-width: 600px;
+    max-height: 600px;
+}
+
+.slides{
+    margin: 0 auto;
+    width: 800px;
+}
+
+@media screen and (max-width: 800px) {
+    .slides{
+        width: 600px;
+    }
+}
